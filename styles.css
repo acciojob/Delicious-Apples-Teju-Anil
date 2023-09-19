@@ -1,1 +1,87 @@
 /* your code here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.photo-container {
+    flex: 1;
+}
+
+.photo-main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo-album ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.photo-album li {
+    margin-bottom: 0.5em;
+}
+
+.photo-album img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.details {
+    flex: 1;
+    margin: 0 1em;
+}
+
+.variant {
+    margin-bottom: 1em;
+}
+
+.variant .color {
+    font-weight: bold;
+}
+
+.variant .image {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    margin-bottom: 1em;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.add-to-cart {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.add-to-cart:hover {
+    background-color: #555;
+}
